@@ -1,26 +1,14 @@
-# hw17---Fitness-Tracker
+# Unit 17 Nosql Homework: Workout Tracker
 
 For this assignment, you'll create a workout tracker. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
 ## User Story
 
-```
-As a fitness enthusiast or (an out of shape man), 
+* As a user, I want to be able to view create and track daily workouts.
 
-I want to be able to view create and track daily workouts 
+## Business Context
 
-So that I can organize my workouts and keep track and plan exercises I need to complete
-```
-
-## Heroku
-
-Uploaded application to here:
-
-https://xxxxx.herokuapp.com/
-
-## Screen Shot
-
-![Getting Started](xxxxx.png)
+A consumer will reach their fitness goals quicker when they track their workout progress.
 
 ## Acceptance Criteria
 
