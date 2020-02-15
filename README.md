@@ -16,7 +16,7 @@ So that I can organize my workouts and keep track and plan exercises I need to c
 
 Uploaded application to here:
 
-https://xxxxx.herokuapp.com/
+https://dry-journey-23517.herokuapp.com/
 
 ## Screen Shot
 
