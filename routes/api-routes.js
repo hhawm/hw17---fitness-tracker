@@ -6,8 +6,10 @@ String.prototype.toObjectId = function () {
     var ObjectId = require("mongoose").Types.ObjectId;
     return new ObjectId(this.toString());
 };
-module.exports = function (app) {
 
+// Routes
+module.exports = function (app) {
+    // Creates workouts
     db.Workout.create({ name: "Workouts" })
         .then(dbWorkout => {
             console.log(dbWorkout);
@@ -65,6 +67,7 @@ module.exports = function (app) {
             });
     });
 
+    // Get route for all workouts
     app.get("/api/workouts/range", (req, res) => {
         db.Workout.find({})
             .populate("exercises")

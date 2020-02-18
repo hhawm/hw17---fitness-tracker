@@ -1,9 +1,8 @@
 const mongoose = require("mongoose");
-
 const Schema = mongoose.Schema;
-
 const ExerciseSchema = require("./exercise.js");
 
+// New workout
 const WorkoutSchema = new Schema({
     day: {
         type: Date,
