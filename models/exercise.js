@@ -21,7 +21,7 @@ const ExerciseSchema = new Schema({
     weight: {
         type: Number,
     },
-    repeats: {
+    reps: {
         type: Number,
     },
     sets: {
