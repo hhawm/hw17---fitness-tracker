@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3000;
 
 // App requires express
+const db = require("./models");
 const app = express();
 
 app.use(logger("dev"));
@@ -18,11 +19,10 @@ app.use(express.static("/public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 // Requires these routes so app knows what to load
-require("./routes/html-routes.js")(app);
-require("./routes/api-routes.js")(app);
+require("./routes/html-routes")(app);
+require("./routes/api-routes")(app);
 
 // Starts server
 app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}!`);
+    console.log(`Listening on ${PORT} at http://localhost:${PORT}`);
 });
-

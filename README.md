@@ -18,9 +18,11 @@ Uploaded application to here:
 
 https://dry-journey-23517.herokuapp.com/
 
-## Screen Shot
+## Screen Shots
 
-![Getting Started](xxxxx.png)
+![Getting Started](./images/screen1.png)
+
+![Getting Started](./images/screen2.png)
 
 ## Acceptance Criteria
 
